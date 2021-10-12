@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Login.APP.Movil</string>
+    <string name="btn_acceder">Acceder</string>
+    <string name="btn_registrar">Registrar</string>
+</resources>
