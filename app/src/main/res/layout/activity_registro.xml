@@ -9,12 +9,11 @@
         android:id="@+id/textView2"
         android:layout_width="170dp"
         android:layout_height="56dp"
-        android:layout_marginStart="106dp"
-        android:layout_marginBottom="659dp"
+        android:layout_marginBottom="656dp"
         android:text="Resgistrar"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        tools:layout_editor_absoluteX="71dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -96,6 +95,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:rippleColor="#EAE2E2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        tools:layout_editor_absoluteY="17dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

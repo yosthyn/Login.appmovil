@@ -38,7 +38,7 @@ public class User extends DBHelper {
      * @return id del nuevo usuario
      */
     public long create(){
-        this.db = this.getWritableDatabase();
+        this.db = this.getReadableDatabase();
         ContentValues values = new ContentValues();
         values.put("name", this.name);
         values.put("pass", this.pass);
