@@ -27,9 +27,9 @@ public class MainActivity extends AppCompatActivity {
     //Asignamos los botones operaciones
         Button btn_add = (Button) this.findViewById(R.id.btn_add);
         Button btn_substract = (Button) this.findViewById(R.id.btn_add);
-        Button btn_decimal = (Button) this.findViewById(R.id.btn_decimal);
         Button btn_clear = (Button) this.findViewById(R.id.btn_clear);
         Button btn_equal = (Button) this.findViewById(R.id.btn_equal);
+        Button btn_decimal = (Button) this.findViewById(R.id.btn_decimal);
         //Asignamos la pantalla
         TextView txt_display = (TextView) this.findViewById(R.id.txt_display);
 
@@ -122,5 +122,7 @@ public class MainActivity extends AppCompatActivity {
         String actual = txt_display.getText().toString();
         String nuevo = actual + digito;
         txt_display.setText(nuevo);
+
     }
 }
+

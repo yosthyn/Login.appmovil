@@ -7,29 +7,29 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView_usuario"
         android:layout_width="126dp"
         android:layout_height="43dp"
         android:layout_marginStart="12dp"
         android:layout_marginBottom="12dp"
         android:text="Usuario"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/txt_editTextTextEmailAddress"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/txt_editTextTextEmailAddress"
         android:layout_width="355dp"
         android:layout_height="64dp"
         android:layout_marginStart="28dp"
         android:layout_marginBottom="24dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintBottom_toTopOf="@+id/textView_clave"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView_clave"
         android:layout_width="114dp"
         android:layout_height="43dp"
         android:layout_marginStart="12dp"
@@ -47,22 +47,22 @@
         android:layout_marginBottom="64dp"
         android:ems="10"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btn_acceder"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_acceder"
         android:layout_width="183dp"
         android:layout_height="68dp"
         android:layout_marginStart="104dp"
         android:layout_marginBottom="11dp"
         android:text="Acceder"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btn_registrar"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_registrar"
         android:layout_width="183dp"
         android:layout_height="68dp"
         android:layout_marginStart="104dp"
@@ -73,7 +73,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/name_inicio"
         android:layout_width="125dp"
         android:layout_height="51dp"
         android:layout_marginStart="138dp"
@@ -81,5 +81,5 @@
         android:text="Inicio"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/txt_editTextTextEmailAddress"
         app:layout_constraintStart_toStartOf="parent" />

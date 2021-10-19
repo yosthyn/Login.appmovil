@@ -1,7 +1,5 @@
 <resources>
-    <string name="app_name">Boleteador</string>
-    <string name="btn_acceder">Acceder</string>
-    <string name="btn_registrar">Registrar</string>
+    <string name="name_boleteador">boleteador</string>
     <string name="btn_clear">C</string>
     <string name="btn_nine">9</string>
     <string name="btn_eight">8</string>
@@ -18,4 +16,16 @@
     <string name="btn_decimal">.</string>
     <string name="btn_equal">=</string>
     <string name="textView_txt_display">textView</string>
+    // String login
+    <string name="btn_acceder">acceder</string>
+    <string name="btn_registrar">registrar</string>
+    <string name="txt_editTextTextEmailAddress">textView</string>
+    <string name="txt_editTextTextPassword">textView</string>
+    <string name="name_inicio">inicio</string>
+    // String Registro
+    <string name="name_registro">registro</string>
+    <string name="bnt_registrar">registar</string>
+    <string name="txt_editTextTextEmailAddress2">textView</string>
+    <string name="txt_editTextTextPassword2">textView</string>
+    <string name="editTextTextPersonName">nombre</string>
 </resources>
